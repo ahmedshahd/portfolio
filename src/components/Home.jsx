@@ -1,12 +1,17 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Flex, Center, Text } from "@chakra-ui/react";
 import React from "react";
 import SVGHome from "./svg/SVGHome";
 
 function Home() {
   return (
-    <Box bgColor="#EB613D" h="100vh">
+    <Flex bgColor="#EB613D" h="100vh">
       <SVGHome width="100%" height="100vh" />
-    </Box>
+      <Flex>
+        <Center width="50%" height="110px" bg="white">
+          <Text>Box 1</Text>
+        </Center>
+      </Flex>
+    </Flex>
   );
 }
 
