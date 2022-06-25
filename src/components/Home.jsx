@@ -4,14 +4,32 @@ import SVGHome from "./svg/SVGHome";
 
 function Home() {
   return (
-    <Flex bgColor="#EB613D" h="100vh">
+    <Box bgColor="#EB613D" height="100vh">
       <SVGHome width="100%" height="100vh" />
-      <Flex>
-        <Center width="50%" height="110px" bg="white">
-          <Text>Box 1</Text>
-        </Center>
+      <Flex
+        direction="column"
+        align="center"
+        justify="center"
+        height="25rem"
+        width="100%"
+        bgColor="#ffffff"
+        border="4px"
+        borderColor="gray.200"
+      >
+        <p>
+          I'm <strong>Sacha Greif</strong>, a designer, developer, and
+          entrepreneur.
+        </p>
+        <p>
+          I'm originally from Paris, France but these days I live in Osaka,
+          Japan.
+        </p>
+        <p>
+          <a href="mailto:hello@sachagreif.com">Say hello</a>, or keep
+          scrolling.
+        </p>
       </Flex>
-    </Flex>
+    </Box>
   );
 }
 

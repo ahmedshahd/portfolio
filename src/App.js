@@ -1,5 +1,4 @@
 import Home from "./components/Home";
-import "./App.css";
 import Bio from "./components/Bio";
 import Code from "./components/Code";
 import Projects from "./components/Projects";
